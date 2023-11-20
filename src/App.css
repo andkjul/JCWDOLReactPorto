@@ -1,0 +1,105 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.separator {
+  border-top: 1px solid black;
+}
+
+.header1 {
+  text-align: center;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header2 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headpar {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.par1 {
+  flex: 1;
+  padding-left: 20px;
+  text-align: right;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-inline-start: 450px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px; 
+  background: #f0f0f0; 
+}
+
+
+.nav-links {
+  display: flex; 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.nav-links li {
+  margin: 0 10px; 
+}
+
+
+.nav-links a {
+  text-decoration: none; 
+  color: #000; 
+}
+
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5em; 
+}
+
+.skillimg {
+  margin-right: 70px;
+}
